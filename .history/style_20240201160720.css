@@ -149,28 +149,7 @@ a.nav-link:hover {
 }
 
 /* card card-service */
-.title-section-2 h2 {
-     font-size: 32px;
-     font-weight: 600;
-     padding: 20px 0;
-     position: relative;
-     color: #222222;
-     margin-bottom: 20px;
-}
 
 .card-service {
      display: flex;
-}
-
-.card-img-top {
-     margin-right: 20px;
-}
-
-
-/* 
-contact-back */
-
-.contact-back {
-     padding: 84px 0 70px;
-     background-color: #2e363a;
 }

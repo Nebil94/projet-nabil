@@ -1,12 +1,3 @@
-img {
-     max-width: 100%;
-     height: auto;
-}
-
-h2 {
-     font-family: 'Poppins', sans-serif;
-}
-
 .logo {
      width: 100%;
      height: 50px;
@@ -46,10 +37,6 @@ a.nav-link:hover {
 /* ===========section-1 =======*/
 .section-1 {
      padding: 60px 0;
-}
-
-.imagebox-image {
-     position: relative;
 }
 
 .imagebox.style1 .imagebox-title h3 {
@@ -109,68 +96,4 @@ a.nav-link:hover {
      margin: 0;
      position: relative;
      line-height: 1.4;
-}
-
-.imagebox.style1 .imagebox-content {
-     position: absolute;
-     top: 0px;
-     left: 0;
-     opacity: 0;
-     visibility: hidden;
-     height: 100%;
-     background: rgba(65, 84, 100, 0.85);
-     font-size: 14px;
-     padding: 30px 30px 40px;
-     transform: translateY(-100%);
-     -webkit-transition: all 0.5s ease-in-out;
-     -moz-transition: all 0.5s ease-in-out;
-     -ms-transition: all 0.5s ease-in-out;
-     -o-transition: all 0.5s ease-in-out;
-     transition: all 0.5s ease-in-out;
-}
-
-.imagebox.style1:hover .imagebox-content {
-     opacity: 1;
-     visibility: visible;
-     -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-     -ms-transform: translateY(0);
-     -o-transform: translateY(0);
-     transform: translateY(0);
-     -webkit-transition: all 0.3s ease-in-out;
-     -moz-transition: all 0.3s ease-in-out;
-     -ms-transition: all 0.3s ease-in-out;
-     -o-transition: all 0.3s ease-in-out;
-     transition: all 0.3s ease-in-out;
-}
-
-.imagebox.style1 .imagebox-content .imagebox-desc {
-     color: #ffffff;
-}
-
-/* card card-service */
-.title-section-2 h2 {
-     font-size: 32px;
-     font-weight: 600;
-     padding: 20px 0;
-     position: relative;
-     color: #222222;
-     margin-bottom: 20px;
-}
-
-.card-service {
-     display: flex;
-}
-
-.card-img-top {
-     margin-right: 20px;
-}
-
-
-/* 
-contact-back */
-
-.contact-back {
-     padding: 84px 0 70px;
-     background-color: #2e363a;
 }
