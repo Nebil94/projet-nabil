@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220204/pngtree-home-office-with-laptop-notebook-calculator-in-clean-natural-surroundings-photo-image_35240066.jpg);
+  background-size: cover;
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+
+/* Your existing styles for other sections */
+
+main#prestation,
+main#Tarif {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Other styles for main#prestation and main#Tarif */
+
+
+
+
+
+.header {
+
+  color: #ffe0f4;
+  background-color: #17021025;
+
+  color: rgb(67, 50, 10);
+  height: 170px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(195, 148, 38);
+  position: relative;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#enTete {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.home {
+
+  
+  background-size: 1320px; /* Ajustez cette valeur en fonction de vos besoins */
+  background-repeat: no-repeat; /* L'image de fond n'est pas répétée */
+  background-position: center center; /* Centre l'image horizontalement et verticalement */
+  height: 790px;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Centre les enfants horizontalement */
+  justify-content: center; /* Centre les enfants verticalement */
+  font-size: 45px;
+  color: rgb(199, 146, 40);
+  text-align: center; /* Centre le texte horizontalement */
+}
+.ul {
+  background-color: black;
+}
+
+.h1 {
+ 
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Styles généraux */
+
+/* Définir une hauteur spécifique pour chaque main */
+
+main {
+
+  text-align: center;
+  display: block;
+  margin-top: -140px;
+  padding-top: 140px;
+  height: 800px; /* Ajustez cette valeur en fonction de vos besoins */
+}
+
+main#Presentation {
+
+  height: 1000px;
+  background-color: #3b2a0592;
+  /*background-image: url(https://static.vecteezy.com/ti/photos-gratuite/p2/1226545-femme-d-affaires-travaillant-au-bureau-gratuit-photo.jpg); */
+  background-size: cover;
+  padding: 50px; /* Ajout de l'espace intérieur pour améliorer la lisibilité */
+  margin-bottom: 20px; /* Ajout de la marge entre les paragraphes */
+}
+
+.quisuisje h1 {
+  padding-top: 150px;
+  font-size: 50px; /* Taille de police réduite */
+  font-family: "Dancing Script", cursive;
+  color: #fff; /* Couleur du texte */
+}
+
+.prez .content-card p {
+
+  font-size: 18px; /* Taille de police réduite */
+  font-family: "Arial", sans-serif; /* Police d'écriture stylée (remplacez 'Arial' par la police de votre choix) */
+  color:rgb(181, 132, 28) /* Couleur du texte */
+  line-height: 1.7; /* Espacement entre les lignes pour améliorer la lisibilité */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Ajout de l'arrière-plan avec effet de transparence */
+  padding: 20px; /* Ajout de marge intérieure pour améliorer la lisibilité */
+  border-radius: 10px; /* Ajout de coins arrondis pour l'arrière-plan */
+  width: 70%; /* Ajustez la largeur selon vos préférences */
+  margin: 0 auto; /* Centrer horizontalement */
+}
+
+main#Presentation .content-card {
+  margin-bottom: 20px; /* Ajout de la marge entre les content cards */
+}
+
+main#Presentation .content-card p {
+  font-size: 18px;
+
+  color: #fff;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Autres styles... */
+
+/* Ajouter d'autres styles au besoin */
+
+main#prestation {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220204/pngtree-home-office-with-laptop-notebook-calculator-in-clean-natural-surroundings-photo-image_35240066.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.presta h1 {
+  font-size: 50px;
+}
+.presta h4{
+  font-size: 30px;
+}
+
+.carte-presta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+article {
+  margin-top: 20px; /* Ajout de margin-top pour centrer les cartes */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Ajout de l'effet de transparence */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: background-color 0.3s, transform 0.3s; /* Ajout de transition pour un effet plus fluide */
+}
+a {
+  text-decoration: none; /* Retire le soulignement des liens */
+  color: inherit; /* Utilise la couleur par défaut du texte pour les liens */
+}
+
+
+article:hover {
+ 
+  background-color: #fff; /* Retour à la couleur solide sur hover */
+  transform: scale(1.5); /* Effet de zoom léger sur hover */
+}
+
+h1 {
+  font-size: 36px; /* Ajustez la taille de la police selon vos besoins */
+}
+
+h4 {
+  font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+}
+
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+main#Tarif {
+  text-align: center;
+ /* background-image: url(https://img.freepik.com/photos-gratuite/vue-dessus-papeterie-materiau-naturel_23-2148898233.jpg?w=1800&t=st=1702828416~exp=1702829016~hmac=7e0a8963ac834f69d8e98cf57102aa66c8b1916a75e677e7e3c8e0f68ffbe079);*/
+}
+
+.carte-tarif {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.prix h1 {
+  font-size: 50px;
+}
+
+.prix h4 {
+  font-size: 35px;
+}
+
+.carte-tarif,
+ul {
+  text-size-adjust: 20px;
+}
+
+main#MeLocaliser {
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  
+}
+
+.google-map {
+  width: 1080px; /* Utilise 100% de la largeur disponible */
+  height: 720px; /* Utilise 100% de la hauteur disponible */
+}
+
+main#Contact {
+  height: 500px;
+
+}
+.contact-section {
+  text-align: center;
+
+  padding: 150px;
+}
+
+.contact-container {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(156, 112, 59, 0.571); /* Fond de la fenêtre avec effet de transparence */
+  padding: 20px;
+  border-radius: 10px; /* Coins arrondis pour la fenêtre */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Ombre pour l'effet de profondeur */
+  width: 650px;
+  height: 400px;
+  align-content: center;
+}
+
+.contact-item {
+  text-align: center;
+  margin: 10px;
+}
+
+#photoSarah {
+  width: auto;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.contact-item {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-item h3 {
+  align-self: flex-start;
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 30px;
+  color: #555;
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.mentions-legales {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.mentions-legales h2,
+.mentions-legales h3 {
+  color: #333;
+}
+
+.mentions-legales p {
+  margin: 5px 0;
+}
